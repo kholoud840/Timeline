@@ -1,0 +1,69 @@
+.timeline-wrapper{
+    background: #eee;
+}
+.left-side,.right-side{
+    padding: 20px;
+}
+.box{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    //height: 100px;
+    //width: 100px;
+     margin: 0 auto;
+    margin-bottom: 26px;
+}
+.left-side{
+    border-right: 1px solid #ccc;
+}
+
+.role{
+    color: #999;
+    font-size: 0.9em;
+}
+.name{
+    font-size: 1.1em;
+    color: #4e8be5;
+    text-transform: capitalize;
+}
+.name-and-role{
+    overflow: hidden;
+}
+.user img{
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    margin-right: 20px;
+}
+.user{
+    padding: 26px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+.user a{
+    display: inline-block;
+    float: left;
+}
+.activity-list .activity{
+    padding: 26px;
+}
+.activity.active{
+    border-left: 3px solid #ff6923;
+    background: #f7f7f7;
+}
+.activity-list .activity .see-on {
+    color: #ccc;
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+.activity-list .activity h3{
+    font-size: 0.9em;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #444;
+    padding-bottom: 4px;
+}
+
+
+
