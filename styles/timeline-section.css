@@ -1,5 +1,5 @@
 .timeline-wrapper{
-    background: #eee;
+    background: #f7f7f7;
 }
 .left-side,.right-side{
     padding: 20px;
@@ -8,9 +8,6 @@
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
-    //height: 100px;
-    //width: 100px;
-     margin: 0 auto;
     margin-bottom: 26px;
 }
 .left-side{
@@ -42,7 +39,6 @@
     justify-content: space-between;
 }
 .user a{
-    display: inline-block;
     float: left;
 }
 .activity-list .activity{
